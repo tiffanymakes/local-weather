@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  height: 100%;
+  width: 100%;
+  background: url('https://static.pexels.com/photos/125457/pexels-photo-125457.jpeg') no-repeat fixed center;
+  background-size: cover;
+  font: 24px Anton;
+  color: #f6f6f6;
+}
+
+#weather {
+  margin: 5%;
+  padding: 5%;
+  background: rgba(0,0,0,0.5);
+}
+
+#temp {
+  font-size: 64px;
+  padding: 5px;
+}
+#condition {
+  font-size: 16px;
+}
